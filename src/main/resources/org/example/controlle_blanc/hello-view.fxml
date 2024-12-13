@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controlle_blanc.HelloController">
+   <children>
+      <Label alignment="CENTER" layoutX="114.0" layoutY="23.0" prefHeight="34.0" prefWidth="353.0" text="Ajouter Membre:" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nom" layoutX="200.0" layoutY="120.0" prefHeight="25.0" prefWidth="227.0" promptText="nom" />
+      <TextField fx:id="prenom" layoutX="200.0" layoutY="179.0" prefHeight="25.0" prefWidth="227.0" promptText="prenom" />
+      <TextField fx:id="email" layoutX="200.0" layoutY="251.0" prefHeight="25.0" prefWidth="227.0" promptText="email" />
+      <TextField fx:id="phone" layoutX="200.0" layoutY="310.0" prefHeight="25.0" prefWidth="227.0" promptText="phone" />
+      <Button layoutX="252.0" layoutY="391.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="41.0" prefWidth="96.0" text="inserer" />
+   </children>
+</Pane>
